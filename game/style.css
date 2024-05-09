@@ -1,0 +1,34 @@
+.cards {
+    opacity: 0;
+    background-color: dimgray;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.wrap {
+    width: 5rem;
+    height: 4rem;
+    margin: 2rem;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.firstRowCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.secondRowCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.matched {
+    background-color: rgb(174, 209, 174);
+}
